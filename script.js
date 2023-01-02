@@ -52,6 +52,7 @@ function storeFormData() {
 		password: form.password.value,
 	};
 	console.log(user);
+	form.reset();
 }
 
 function processFormData(e) {
